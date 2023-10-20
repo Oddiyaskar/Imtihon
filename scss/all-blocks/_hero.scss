@@ -1,0 +1,52 @@
+.hero {
+    margin-top: 74px;
+}
+
+.hero__info {
+    margin-top: 78px;
+}
+
+.hero__heading {
+    margin: 0;
+    padding: 0;
+    color: var(--color-JuanBlue);
+    font-family: "DM Serif Display";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; 
+    letter-spacing: -0.554px;
+    width: 546px;
+}
+
+.hero__input {
+    color: var(--color-JuanBlue);
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 445px;
+    height: 52px;
+    margin-top: 21px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.hero__btn {
+    @include Button;
+    position: absolute;
+    transform: translate(-175px, 20px);
+}
+
+.hero__div {
+    display: flex;
+}
+
+.hero__img {
+    margin-left: 206px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+} 

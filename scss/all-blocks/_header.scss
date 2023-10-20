@@ -1,0 +1,56 @@
+.header {
+    margin-top: 40px;
+
+    .container {
+        @include Flex;
+    }
+}
+
+.nav {
+    margin-left: 24px;
+}
+
+.nav__ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav__link {
+    @include Link;
+}
+
+.header__btn {
+    @include Button;
+    margin-left: 506px;
+}
+
+.btn {
+    background-color: #fff;
+    border: none;
+    display: none;
+}
+
+@media only screen and (max-width: 602px) {
+    .nav {
+        display: none;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .btn__menu {
+        display: block;
+    }
+
+    .btn:focus {
+
+        .btn__menu {
+            display: none;
+        }
+
+        .btn__exit {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main/main.min.css">
+    <title>Imtihon</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a class="header__link" href="#">
+                <img class="header__logo" src="./img/logo.svg" alt="logo" width="135" height="38">
+            </a>
+
+            <nav class="nav nav__blok">
+                <ul class="nav__ul">
+                    <li class="nav__li">
+                        <a class="nav__link" href="#">Pricing</a>
+                    </li>
+
+                    <li class="nav__li">
+                        <a class="nav__link" href="#">About</a>
+                    </li>
+
+                    <li class="nav__li">
+                        <a class="nav__link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="header__btn">Schedule a Demo</button>
+
+            <button class="btn">
+                <img class="btn__menu Menu" src="./img/menu.svg" alt="menu" width="28" height="17">
+
+                <img class="btn__exit Exit" src="./img/exit.svg" alt="exit" width="28" height="17">
+            </button>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__bg">
+                    <div class="hero__div">
+                    <div class="hero__info">
+                        <h1 class="hero__heading">Start building with our APIs for absolutely free.</h1>
+                        <form class="hero__form" action="https://echo.htmlacademy.ru/">
+                            <input class="hero__input" type="text" placeholder="Enter email address">
+                            <button class="hero__btn" type="submit">Schedule a Demo</button>
+                        </form>
+                    </div>
+
+                    <picture>
+                        <source 
+                        media="(max-width:425px)"
+                        type="img/AViF"
+                        srcset="./img/mobil/payapi.avif 1x, ./img/mobil/avif.webp 2x">
+
+                        <source 
+                        media="(max-width:425px)"
+                        type="img/AViF"
+                        srcset="./img/tablet/telephone-mobile.avif 1x, ./img/tablet/telephone-mobile.avif 2x">
+
+                        <source 
+                        media="(max-width:425px)"
+                        type="img/AViF"
+                        srcset="./img/desctop/payapi.avif 1x, ./img/desktop/avif.webp 2x">
+
+                        <source 
+                        media="(max-width:768px)"
+                        type="img/webp"
+                        srcset="./img/mobil/telephone-mobile.webp 1x, ./img/mobil/telephone-mobile.webp 2x">
+
+                        <source 
+                        media="(max-width:768px)"
+                        type="img/webp"
+                        srcset="./img/tablet/payapi.webp, ./img/tablet/payapi.webp 2x">
+
+                        <source 
+                        type="img/webp"
+                        srcset="./img/desktop/payapi.webp 1x, ./img/desktop/payapi.webp 2x">
+
+                        <img class="hero__img" 
+                        src="./img/desktop/payapi.png" 
+                        srcset="./img/desktop/payapi.png 1x, ./img/desktop/payapi.png 2x"
+                        alt="payapi" width="236" height="500">
+                    </picture>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        
+    </main>
+</body>
+</html>
