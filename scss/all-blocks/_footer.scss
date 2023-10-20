@@ -1,0 +1,33 @@
+.footer {
+    margin-top: 96px;
+    background-color: var(--color-MirageBlue);
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.footer__img {
+    margin-top: 31px;
+}
+
+.navber__list {
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+.navber__link {
+    color: #FBFCFE;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.7;
+}
+
+.navber:nth-child(3) {
+    margin-left: 560px;
+}

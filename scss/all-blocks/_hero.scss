@@ -48,5 +48,23 @@
 }
 
 @media only screen and (max-width: 768px) {
-    
+    .hero__div {
+        display: inline;
+    }
+
+    .hero__input {
+        width: 420px;
+    }
 } 
+
+@media only screen and (max-width: 425px) {
+    .hero__btn {
+        transform: translate(50px);
+        width: 420px;
+    }
+
+    .hero__img {
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+}
